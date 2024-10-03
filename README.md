@@ -26,7 +26,7 @@ This script calculates the forces acting on the A-arms during various dynamic co
 ### 2. Bolt Safety Factor Analysis
 This script analyzes the safety factors of bolts used in critical areas like suspension, steering, and drivetrain components. It considers the forces acting on the bolts during different dynamic conditions and calculates the safety factors based on material properties and loading conditions.
 
-- **Script**: `BoltSafetyFactor.m`
+- **Script**: `boltsafety_all.mlx`
 - **Usage**: Useful for selecting appropriate bolt grades and ensuring reliability in high-stress situations.
 
 ### 3. FS Event Simulations
