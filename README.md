@@ -35,20 +35,14 @@ These scripts simulate the car's behavior in different FS events to predict perf
 #### a. Acceleration Event
 Simulates the car's performance in a straight-line acceleration run, focusing on aspects like power delivery, traction, and weight distribution.
 
-- **Script**: `AccelerationEvent.m`
+- **Script**: `acceleration_model.mlx`
 - **Usage**: Can be used to optimize gear ratios, tire selection, and launch control strategies.
 
 #### b. Skidpad Event
 Simulates the lateral dynamics of the car during a skidpad event to analyze handling, tire behavior, and weight transfer.
 
-- **Script**: `SkidpadEvent.m`
+- **Script**: `skidpadmodel.mlx`
 - **Usage**: Helps in tuning suspension settings to maximize cornering speed and stability.
-
-#### c. Endurance Event
-Models the car's endurance performance, including factors such as fuel/energy consumption, tire wear, and thermal management over an extended period.
-
-- **Script**: `EnduranceEvent.m`
-- **Usage**: Useful for strategy planning, ensuring component durability, and optimizing vehicle performance for long-duration events.
 
 ## Dependencies
 - MATLAB R2020b or later
@@ -56,7 +50,7 @@ Models the car's endurance performance, including factors such as fuel/energy co
 - Vehicle Dynamics Toolbox (for event simulations)
 
 ## Usage
-1. Open the respective MATLAB script (e.g., `AArmForceSim.m`).
+1. Open the respective MATLAB script (e.g., `acceleration_model.mlx`).
 2. Modify the input parameters (e.g., vehicle geometry, material properties) as needed.
 3. Run the script to view results and visualizations.
 4. Output results can be saved for further analysis or documentation.
