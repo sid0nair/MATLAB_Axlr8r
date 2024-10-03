@@ -20,7 +20,7 @@ The codes in this repository help to simulate the real-world dynamics and stress
 ### 1. A-Arm Force Simulation
 This script calculates the forces acting on the A-arms during various dynamic conditions such as cornering, braking, and accelerating. The simulation considers parameters like suspension geometry, load transfer, and tire forces.
 
-- **Script**: `AArmForceSim.m`
+- **Script**: `acceleration_model.mlx`
 - **Usage**: This code can be used to determine the optimal design and material choice for the A-arms to ensure safety and performance.
 
 ### 2. Bolt Safety Factor Analysis
