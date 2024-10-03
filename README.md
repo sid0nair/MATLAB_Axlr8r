@@ -11,7 +11,7 @@ The codes in this repository help to simulate the real-world dynamics and stress
 ## Getting Started
 1. Clone the repository:
     ```bash
-    
+    git clone https://github.com/sid0nair/MATLAB.git
     ```
 2. Open MATLAB and navigate to the cloned directory.
 
